@@ -27,7 +27,7 @@ Houses dynamic text measures that support narrative-driven dashboards and custom
 Each folder was named carefully to match business language, making it easier for analysts, finance teams, and business users to find and understand the measures they need.
 
 
-### Here's a simple breakdown of what's happening:
+## Here's a simple breakdown of what's happening:
 * Qty Receipt, Qty Withdraw = Calculate quantity received/withdrawn based on transaction type = Straightforward CALCULATE(SUM(...)) with a filter.
 * 01Qty in store (simple) = Net stock movement without considering time/previous stock = Just [Qty Receipt] - [Qty Withdraw].
 * Qty in store (actual) = Rolling inventory stock considering time filter = REMOVEFILTERS + filter up to MAX(Date).
