@@ -2,21 +2,29 @@
 This repository demonstrates a systematic organization of DAX measures within a Power BI Inventory Management Model.
 The focus was on enhancing model usability, scalability, and maintainability by carefully structuring all business logic into meaningful Display Folders without altering the natural development flow of the measures.
 
-📋 Project Overview
+##Project Overview
+
 In complex models, poor measure organization can slow down report development and make ongoing maintenance difficult.
+
 To counter this, I manually grouped measures into Display Folders that reflect real-world business processes around inventory management — covering stock movements, cost analysis, turnover, and operational KPIs.
+
 By maintaining the original order of development while introducing structured folders, I achieved a balance between preserving analytical flow and optimizing for end-user navigation.
 
-🗂️ Folder Structure
+##Folder Structure
 Measures were grouped into the following logical folders:
+
 **Inventory Movement:**
 Captures receipts, withdrawals, adjustments, and ending inventory quantities.
+
 **Inventory Cost Analysis**
 Focuses on weighted average cost calculations, total inventory valuation, and unit costs.
+
 **Cost of Goods Sold (COGS) and Turnover:**
 Groups measures related to stock withdrawals translated into monetary terms and sales performance over time.
+
 **Inventory Efficiency Metrics:**
 Key metrics such as Days Inventory Outstanding (DIO) and inventory turnover ratio, used to track stock holding efficiency.
+
 **Narrative and Text Measures**
 Houses dynamic text measures that support narrative-driven dashboards and custom visuals.
 
